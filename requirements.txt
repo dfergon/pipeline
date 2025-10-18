@@ -1,15 +1,20 @@
 attrs==20.3.0
 coverage==5.5
-flake8==5.0.4
 iniconfig==1.1.1
-mccabe==0.6.1
 packaging==20.9
 pluggy==0.13.1
 py==1.10.0
-pycodestyle==2.7.0
-pyflakes==2.3.1
 pyparsing==2.4.7
-pytest==7.4.4
 pytest-cov==2.11.1
 toml==0.10.2
+
+
+# Lint (flake8 5.x soporta py3.7)
+flake8==5.0.4
+pycodestyle==2.9.1
+pyflakes==2.5.0
+mccabe==0.7.0
 importlib_metadata==4.13.0
+
+# Tests (pytest 7.x soporta py3.7; pytest 8 ya no)
+pytest==7.4.4
